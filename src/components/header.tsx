@@ -33,9 +33,9 @@ const Header = () => {
         <div>
            <ul  className="grid gap-4 py-4 justify-center"  >
                     {
-                        navItems.map((item)=> <li className="border-[3px] border-red-500 " key={item.link}><Link href={item.link}> {item.name}</Link></li>)
+                        navItems.map((item)=> <li className="" key={item.link}><SheetClose asChild><Link href={item.link}> {item.name}</Link></SheetClose></li>)
                     }   
-                    <Button variant="outline" className="bg-slate-900 w-[96px] h-[40px] text-white ">Hire Me</Button>
+                    <SheetClose asChild><Button variant="outline" className="bg-slate-900 w-[96px] h-[40px] text-white ">Hire Me</Button></SheetClose>
 
                 </ul>                
 

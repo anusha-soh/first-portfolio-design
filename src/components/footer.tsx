@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 const Footer = () => {
   return (
     <div className="flex flex-col gap-4 md:gap-1 justify-between max-w-[1440px] mx-auto p-[80px]">
-      <section>
+      <section className=" pb-6 md:pb-12  md:px-12">
         <div className="flex flex-col gap-10 md:gap-2 md:flex-row md:justify-between">
           <div className="flex flex-col gap-4 md:gap-2 items-center md:items-start max-w-[400ppx]">
             <div >
@@ -32,7 +32,7 @@ const Footer = () => {
                 <Label className="md:text-[14px]" htmlFor="email">
                   Subscribe
                 </Label>
-                <div className="flex  border-red-600 border-[3px] gap-4">
+                <div className="flex gap-4">
                   <Input
                     className="border-slate-900"
                     type="email"
