@@ -13,8 +13,8 @@ export const navItems: Inavitms[] = [
         link:"/about"
     },
     {
-        name:"Contact",
-        link:"/contact"
+        name:"Portfolio",
+        link:"/portfolio"
     },
 ]
 

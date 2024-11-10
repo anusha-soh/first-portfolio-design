@@ -1,9 +1,12 @@
+import About from '@/components/about'
+import Contact from '@/components/contact'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <h1 className='text-2xl'>About page</h1>
+      <About/>
+      <Contact/>
     </div>
   )
 }
