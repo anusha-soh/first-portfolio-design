@@ -54,14 +54,14 @@ const Footer = () => {
       </section>
       <section>
         <div className=" flex flex-col md:flex-row-reverse md:gap-1 gap-4 justify-between max-w-[1280px] items-center pt-7 border-t-[2px] border-[#676767] ">
-          <ul className="flex px-10 sm:px-0 gap-1 md:gap-3">
+          <ul className="flex md:px-10 px-0 gap-1 md:gap-3">
             {footerCwLinks.map((item) => (
-              <li key={item.key} className=" text-[14px]">
+              <li key={item.key} className=" text-[10px]">
                 <Link href={item.link}>{item.name}</Link>
               </li>
             ))}
           </ul>
-          <p  className="text-[14px]">2023 Disgner All rights reserved</p>
+          <p  className="text-[12px]">2023 Disgner All rights reserved</p>
         </div>
       </section>
     </div>

@@ -31,7 +31,7 @@ const Header = () => {
           <SheetTitle>Menu</SheetTitle>
         </SheetHeader>
         <div>
-           <ul  className="grid gap-4 py-4 justify-center"  >
+           <ul  className="flex flex-col gap-4 py-4 items-center"  >
                     {
                         navItems.map((item)=> <li className="" key={item.link}><SheetClose asChild><Link href={item.link}> {item.name}</Link></SheetClose></li>)
                     }   
